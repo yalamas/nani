@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  agent:NaniPC
 
 steps:
 - task: Maven@3
